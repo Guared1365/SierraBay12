@@ -647,7 +647,8 @@
 /singleton/cooking_recipe/cake
 	appliance = COOKING_APPLIANCE_OVEN
 	required_reagents = list(
-		/datum/reagent/nutriment/batter/cakebatter = 60
+		/datum/reagent/nutriment/batter/cakebatter = 60,
+		/datum/reagent/drink/syrup_vanilla = 30 //Adding an extra reagent to the recipe to fix it
 	)
 	result_path = /obj/item/reagent_containers/food/snacks/sliceable/plaincake
 	cooked_scent = /datum/extension/scent/food/cake
